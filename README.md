@@ -1,8 +1,6 @@
 PiecCiekawostekORobotach
 ------------------------
 
-Prosta aplikacja prezentująca 5 różnego rodzaju informacji o Robotach, od etymologii słowa do nurtów filozoficznych.
+Prosta aplikacja prezentująca 5 różnego rodzaju informacji o Robotach.
 
-Aplikacja pozwala na zaznaczenie, że dana informacja została przeczytana.
-
-~~~ More to come ~~~
+Aplikacja pozwala na zaznaczenie, że dana informacja została przeczytana; a po zapoznaniu się ze wszystkimi Użytkownik może zobaczyć Tajny Bonus.
