@@ -29,25 +29,28 @@
     <string name="fact3_title">Robot vs Android vs Cyborg</string>
     <string name="fact3_content">
         Istnieje kilka określeń na istoty, które mieszczą się w ogólnej definicji robota.\n\n
-        Android to robot humanoid, czyli mechaniczne urządzenie wykonujące automatycznie pewne zadania, którego kształt przypomina ludzkie ciało.\n
-        Cyborg to organizm, którego procesy życiowe realizowane są lub wspomagane przez urządzenia techniczne.\n
-        Słowo robot obecnie oznacza ogólnie mechaniczne urządzenie wykonujące automatycznie pewne zadania.
+        Android to robot humanoid, czyli mechaniczne urządzenie wykonujące automatycznie pewne zadania, którego kształt przypomina ludzkie ciało.\n\n
+        Cyborg to organizm, którego procesy życiowe realizowane są lub wspomagane przez urządzenia techniczne.\n\n
+        Słowo robot obecnie oznacza właściwie wszystkie mechaniczne urządzenia wykonujące automatycznie pewne zadania.
     </string>
 
     <string name="fact4_title">Filmy</string>
     <string name="fact4_content">
-        Filmy poruszające tematykę sztucznej inteligencji lub humanoidalnych robotów:\n\n
-        Metropolis\n
-        Star Wars\n
-        I, Robot\n
-        2001: Odyseja kosmiczna\n
-        Ex Machina
+        Filmy poruszające tematykę sztucznej inteligencji lub humanoidalnych robotów (lista niewyczerpująca):\n\n
+        Metropolis (1927)\n
+        2001: Odyseja kosmiczna (1968)\n
+        Gwiezdne wojny (1977)\n
+        Blade Runner (1982)\n
+        Ja, robot (2004)\n
+        Interstellar (2014)\n
+        Ex Machina (2015)
     </string>
 
     <string name="fact5_title">AlphaGo</string>
     <string name="fact5_content">
         Jednym z ważnych wydarzeń związanych z rozwojem badań nad sztuczną inteligencją był mecz Go pomiędzy Lee Sedol\'em a programem o nazwie AlphaGo, rozwijanym przez Google.\n\n
-        Mecz ten odbył się Seulu, w dniach 9-15 marca 2016 roku.
+        Mecz ten odbył się Seulu, w dniach 9-15 marca 2016 roku.\n\n
+        Go przez wiele lat było uznawane za grę, której nie będzie w stanie opanować żadna maszyna. W przeciwieństwie do szachów, gdzie optymalne otwarcia partii są już od lat rozpracowane na wiele ruchów do przodu, w go liczba możliwych odgałęzień jest tak duża, że nie sposób wyuczyć się ich na pamięć, czy – w przypadku komputera – bazować na stosunkowo prostych algorytmach.
     </string>
 
     <string name="congrats">Gratulacje! Teraz wiesz już wszystko.</string>

@@ -2,9 +2,10 @@ package com.example.android.piecciekawostekorobotach;
 
 import android.app.Application;
 
-
+/**
+ * Class for app-wide variables
+ */
 public class App extends Application {
-
     private boolean knowsFact[] = new boolean[5];
     public boolean getKnowsFact(int i) {
         return knowsFact[i];

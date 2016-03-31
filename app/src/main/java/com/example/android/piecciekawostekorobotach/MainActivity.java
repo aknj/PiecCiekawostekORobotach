@@ -3,7 +3,6 @@ package com.example.android.piecciekawostekorobotach;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
-import android.util.Log;
 import android.view.View;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
@@ -18,12 +17,11 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        /// Changing the colors of the buttons according to the knowsFact value
         String baseString = "btn";
         for(int i = 0; i < 5; i++) {
             if (((App) this.getApplication()).getKnowsFact(i)) {
-                Log.d("Main", "w srodku if " + i);
                 String idString=baseString.concat(Integer.toString(i+1));
-                Log.d("Main", baseString);
                 int idResource = getResources().getIdentifier(idString, "id", getPackageName());
                 Button btn = (Button) findViewById(idResource);
                 if (btn != null) {
@@ -32,17 +30,17 @@ public class MainActivity extends AppCompatActivity {
             }
         }
 
-        /// Congratulations
+        /// Congratulations section
         App app = (App) this.getApplication();
         int i = 0;
         while(i < 5 && app.getKnowsFact(i)) {
             i++;
         }
-        if (i == 5) {       /// If the user has read everything
+        if (i == 5) {   /// If the user has read everything
             TextView tw = (TextView) findViewById(R.id.congrats);
             tw.setText(getResources().getString(R.string.congrats));
 
-            /// Displaying of the vine
+            /// Displaying of the congrats video
             String frameVideo = "<center><iframe src=\"https://vine.co/v/iXWz6516Ipz/embed/simple\" width=\"300\" height=\"300\" frameborder=\"0\"></iframe></center><script src=\"https://platform.vine.co/static/scripts/embed.js\"></script>";
 
             WebView displayVideo = (WebView)findViewById(R.id.webView);
