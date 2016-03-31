@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">5 ciekawostek o robotach</string>
+
+    <string name="menu_item1">Fakt 1</string>
+
+    <string name="menu_item2">Fakt 2</string>
+
+    <string name="menu_item3">Fakt 3</string>
+
+    <string name="menu_item4">Fakt 4</string>
+
+    <string name="menu_item5">Fakt 5</string>
+
+    <string name="fact1_title">Skąd wzięło się słowo "robot"?</string>
+
+    <string name="fact1_content">Słowo robot pochodzi od słowiańskiego słowa robota, oznaczającego ciężką pracę, wysiłek. Upowszechniło się ono po wydaniu sztuki R.U.R. (Rossumovi Univerzální Roboti) której autorem jest czeski pisarz Karel Čapek. Mimo iż pierwotnie odnosiło się ono do żywych istot – sztucznie produkowanej, uproszczonej wersji człowieka przeznaczonej do ciężkiej pracy, obecnie słowo to oznacza przede wszystkim urządzenia mechaniczne. Termin robot został jednak wykuty przez pisarza Josefa, który jest bratem Karela.</string>
+
+    <string name="i_know_this">Wiem to!</string>
+
+    <string name="fact2_title">>Prawa robotyki Asimowa</string>
+
+    <string name="fact2_content">
+    Robot nie może skrzywdzić człowieka, ani przez zaniechanie działania dopuścić, aby człowiek doznał krzywdy.\n
+    Robot musi być posłuszny rozkazom człowieka, chyba że stoją one w sprzeczności z Pierwszym Prawem.\n
+    Robot musi chronić sam siebie, jeśli tylko nie stoi to w sprzeczności z Pierwszym lub Drugim Prawem.
+    </string>
+    <string name="fact3_title">Robot vs Android vs Cyborg</string>
+    <string name="fact3_content">Android – robot humanoid, czyli mechaniczne urządzenie wykonujące automatycznie pewne zadania, którego kształt przypomina ludzkie ciało.</string>
+    <string name="fact4_title">Roboty w literaturze i filmie</string>
+    <string name="fact4_content">Bla</string>
+    <string name="fact5_title">Sztuczna inteligencja i AlphaGo</string>
+    <string name="fact5_content">Ha</string>
+    <string name="congrats">Gratulacje!</string>
+
+
+</resources>
