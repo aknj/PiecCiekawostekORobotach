@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.android.piecciekawostekorobotach">
 
-    <!-- internet permission for webview -->
+    <!-- Internet permission for the WebView -->
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
@@ -21,22 +21,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <!--<activity android:name=".Sub1Activity"
-            android:parentActivityName="com.example.android.piecciekawostekorobotach.MainActivity">
-
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.android.piecciekawostekorobotach.MainActivity" />
-        </activity>
-
-        <activity android:name=".Sub2Activity"
-            android:parentActivityName="com.example.android.piecciekawostekorobotach.MainActivity">
-
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.android.piecciekawostekorobotach.MainActivity" />
-        </activity>-->
-
 
         <activity android:name=".SubActivity"
             android:parentActivityName="com.example.android.piecciekawostekorobotach.MainActivity">

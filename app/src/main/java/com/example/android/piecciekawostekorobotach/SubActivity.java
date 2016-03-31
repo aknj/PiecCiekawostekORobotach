@@ -2,7 +2,6 @@ package com.example.android.piecciekawostekorobotach;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
-import android.util.Log;
 import android.view.View;
 import android.widget.CheckBox;
 import android.widget.ImageView;
@@ -17,9 +16,6 @@ public class SubActivity extends AppCompatActivity {
 
         Bundle extras = getIntent().getExtras();
         int factNumber = extras.getInt("number");
-        //Log.d("haha", String.valueOf(value));
-
-
 
         /// Handling of the I know this checkbox
         CheckBox knowCheckBox = (CheckBox) findViewById(R.id.i_know_this_checkbox);
@@ -31,8 +27,6 @@ public class SubActivity extends AppCompatActivity {
         TextView title = (TextView) findViewById(R.id.title);
         ImageView illustration = (ImageView) findViewById(R.id.illustration);
         TextView content = (TextView) findViewById(R.id.content);
-
-        Log.d("haha", String.valueOf(factNumber));
 
         switch(factNumber) {
             case 0:
@@ -64,12 +58,14 @@ public class SubActivity extends AppCompatActivity {
         }
     }
 
-    // TODO make the checkbox isChecked separate for every "fact"
-    /// there's an array of 5 booleans
+    /**
+     * A method setting the app-wide variables.
+     * Sets the appropriate variable in the App.knowsFact array if the checkbox is checked.
+     */
     public void saveCheck(View view) {
         Bundle extras = getIntent().getExtras();
         int factNumber = extras.getInt("number");
-        // ^ czy to musi byc tu?  :/
+
         CheckBox knowCheckBox = (CheckBox) findViewById(R.id.i_know_this_checkbox);
         boolean knows = knowCheckBox != null && knowCheckBox.isChecked();
         ((App) this.getApplication()).setKnowsFact(factNumber, knows);

@@ -18,14 +18,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-//        Button btn1 = (Button) findViewById(R.id.btn1);
-//        Button btn2 = (Button) findViewById(R.id.btn2);
-//        Button btn3 = (Button) findViewById(R.id.btn3);
-//        Button btn4 = (Button) findViewById(R.id.btn4);
-//        Button btn5 = (Button) findViewById(R.id.btn5);
-//
-//        btn1.setOnClickListener();
-
         String baseString = "btn";
         for(int i = 0; i < 5; i++) {
             if (((App) this.getApplication()).getKnowsFact(i)) {
@@ -40,19 +32,17 @@ public class MainActivity extends AppCompatActivity {
             }
         }
 
-
-        /// Nagroda
+        /// Congratulations
         App app = (App) this.getApplication();
         int i = 0;
         while(i < 5 && app.getKnowsFact(i)) {
             i++;
         }
-        if (i == 5) {       /// if the user read everything
+        if (i == 5) {       /// If the user has read everything
             TextView tw = (TextView) findViewById(R.id.congrats);
             tw.setText(getResources().getString(R.string.congrats));
 
-
-            /// displaying of the vine
+            /// Displaying of the vine
             String frameVideo = "<center><iframe src=\"https://vine.co/v/iXWz6516Ipz/embed/simple\" width=\"300\" height=\"300\" frameborder=\"0\"></iframe></center><script src=\"https://platform.vine.co/static/scripts/embed.js\"></script>";
 
             WebView displayVideo = (WebView)findViewById(R.id.webView);
@@ -65,13 +55,6 @@ public class MainActivity extends AppCompatActivity {
             WebSettings webSettings = displayVideo.getSettings();
             displayVideo.setBackgroundColor(getResources().getColor(R.color.transparent));
             webSettings.setJavaScriptEnabled(true);
-
-            /// resizing displayVideo WebView to be the size of the contents
-    //        RelativeLayout layout = new RelativeLayout(this);
-    //        RelativeLayout.LayoutParams lp = new RelativeLayout.LayoutParams(
-    //                RelativeLayout.LayoutParams.WRAP_CONTENT,
-    //                RelativeLayout.LayoutParams.WRAP_CONTENT);
-    //        displayVideo.setLayoutParams(lp);
 
             displayVideo.loadData(frameVideo, "text/html", "utf-8");
         }
@@ -100,10 +83,6 @@ public class MainActivity extends AppCompatActivity {
                 break;
         }
 
-        //Intent intent = new Intent(MainActivity.this, Sub1Activity.class);
         startActivity(intent);
     }
-
-
-
 }
