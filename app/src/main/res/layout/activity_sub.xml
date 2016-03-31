@@ -19,8 +19,9 @@
 
         <ImageView android:id="@+id/illustration"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/rur_plakat"
+            android:layout_height="240dp"
+            android:layout_margin="12dp"
+            android:padding="4dp"
             />
 
         <TextView android:id="@+id/content"
@@ -31,6 +32,9 @@
             />
 
         <CheckBox android:id="@+id/i_know_this_checkbox"
+            android:textSize="18sp"
+            android:layout_gravity="center"
+            android:layout_margin="8dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/i_know_this"

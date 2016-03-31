@@ -1,36 +1,55 @@
 <resources>
     <string name="app_name">5 ciekawostek o robotach</string>
 
-    <string name="menu_item1">Fakt 1</string>
+    <string name="menu_item1">Ciekawostka 1</string>
 
-    <string name="menu_item2">Fakt 2</string>
+    <string name="menu_item2">Ciekawostka 2</string>
 
-    <string name="menu_item3">Fakt 3</string>
+    <string name="menu_item3">Ciekawostka 3</string>
 
-    <string name="menu_item4">Fakt 4</string>
+    <string name="menu_item4">Ciekawostka 4</string>
 
-    <string name="menu_item5">Fakt 5</string>
+    <string name="menu_item5">Ciekawostka 5</string>
 
-    <string name="fact1_title">Skąd wzięło się słowo "robot"?</string>
+    <string name="fact1_title">Skąd wzięło się słowo \"robot\"?</string>
 
-    <string name="fact1_content">Słowo robot pochodzi od słowiańskiego słowa robota, oznaczającego ciężką pracę, wysiłek. Upowszechniło się ono po wydaniu sztuki R.U.R. (Rossumovi Univerzální Roboti) której autorem jest czeski pisarz Karel Čapek. Mimo iż pierwotnie odnosiło się ono do żywych istot – sztucznie produkowanej, uproszczonej wersji człowieka przeznaczonej do ciężkiej pracy, obecnie słowo to oznacza przede wszystkim urządzenia mechaniczne. Termin robot został jednak wykuty przez pisarza Josefa, który jest bratem Karela.</string>
+    <string name="fact1_content">Słowo robot pochodzi od słowiańskiego słowa \"robota\", oznaczającego ciężką pracę, wysiłek. Upowszechniło się ono po wydaniu sztuki R.U.R. (Rossumovi Univerzální Roboti) której autorem jest czeski pisarz Karel Čapek. Mimo iż pierwotnie odnosiło się ono do żywych istot – sztucznie produkowanej, uproszczonej wersji człowieka przeznaczonej do ciężkiej pracy, obecnie słowo to oznacza przede wszystkim urządzenia mechaniczne. Termin robot został jednak wykuty przez pisarza Josefa, który jest bratem Karela.</string>
 
     <string name="i_know_this">Wiem to!</string>
 
-    <string name="fact2_title">>Prawa robotyki Asimowa</string>
+    <string name="fact2_title">Prawa robotyki Asimowa</string>
 
     <string name="fact2_content">
-    Robot nie może skrzywdzić człowieka, ani przez zaniechanie działania dopuścić, aby człowiek doznał krzywdy.\n
-    Robot musi być posłuszny rozkazom człowieka, chyba że stoją one w sprzeczności z Pierwszym Prawem.\n
-    Robot musi chronić sam siebie, jeśli tylko nie stoi to w sprzeczności z Pierwszym lub Drugim Prawem.
+    W 1942 roku pisarz Isaak Asimow stworzył trzy prawa robotów i przedstawił je w opowiadaniu Zabawa w berka (ang. Runaround). Celem tych praw było uregulowanie kwestii stosunków pomiędzy przyszłymi myślącymi maszynami a ludźmi. Prawa te brzmiały następująco:\n\n
+    1. Robot nie może skrzywdzić człowieka, ani przez zaniechanie działania dopuścić, aby człowiek doznał krzywdy.\n\n
+2. Robot musi być posłuszny rozkazom człowieka, chyba że stoją one w sprzeczności z Pierwszym Prawem.\n\n
+3. Robot musi chronić sam siebie, jeśli tylko nie stoi to w sprzeczności z Pierwszym lub Drugim Prawem.
     </string>
-    <string name="fact3_title">Robot vs Android vs Cyborg</string>
-    <string name="fact3_content">Android – robot humanoid, czyli mechaniczne urządzenie wykonujące automatycznie pewne zadania, którego kształt przypomina ludzkie ciało.</string>
-    <string name="fact4_title">Roboty w literaturze i filmie</string>
-    <string name="fact4_content">Bla</string>
-    <string name="fact5_title">Sztuczna inteligencja i AlphaGo</string>
-    <string name="fact5_content">Ha</string>
-    <string name="congrats">Gratulacje!</string>
 
+    <string name="fact3_title">Robot vs Android vs Cyborg</string>
+    <string name="fact3_content">
+        Istnieje kilka określeń na istoty, które mieszczą się w ogólnej definicji robota.\n\n
+        Android to robot humanoid, czyli mechaniczne urządzenie wykonujące automatycznie pewne zadania, którego kształt przypomina ludzkie ciało.\n
+        Cyborg to organizm, którego procesy życiowe realizowane są lub wspomagane przez urządzenia techniczne.\n
+        Słowo robot obecnie oznacza ogólnie mechaniczne urządzenie wykonujące automatycznie pewne zadania.
+    </string>
+
+    <string name="fact4_title">Filmy</string>
+    <string name="fact4_content">
+        Filmy poruszające tematykę sztucznej inteligencji lub humanoidalnych robotów:\n\n
+        Metropolis\n
+        Star Wars\n
+        I, Robot\n
+        2001: Odyseja kosmiczna\n
+        Ex Machina
+    </string>
+
+    <string name="fact5_title">AlphaGo</string>
+    <string name="fact5_content">
+        Jednym z ważnych wydarzeń związanych z rozwojem badań nad sztuczną inteligencją był mecz Go pomiędzy Lee Sedol\'em a programem o nazwie AlphaGo, rozwijanym przez Google.\n\n
+        Mecz ten odbył się Seulu, w dniach 9-15 marca 2016 roku.
+    </string>
+
+    <string name="congrats">Gratulacje! Teraz wiesz już wszystko.</string>
 
 </resources>

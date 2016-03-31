@@ -38,22 +38,27 @@ public class SubActivity extends AppCompatActivity {
             case 0:
                 title.setText(getResources().getString(R.string.fact1_title));
                 illustration.setImageResource(R.drawable.rur_plakat);
+                illustration.getLayoutParams().height = 600;
                 content.setText(getResources().getString(R.string.fact1_content));
                 break;
             case 1:
                 title.setText(getResources().getString(R.string.fact2_title));
+                illustration.setImageResource(R.drawable.asimov);
                 content.setText(getResources().getString(R.string.fact2_content));
                 break;
             case 2:
                 title.setText(getResources().getString(R.string.fact3_title));
+                illustration.setImageResource(R.drawable.serv);
                 content.setText(getResources().getString(R.string.fact3_content));
                 break;
             case 3:
                 title.setText(getResources().getString(R.string.fact4_title));
+                illustration.setImageResource(R.drawable.metropolis_c3po);
                 content.setText(getResources().getString(R.string.fact4_content));
                 break;
             case 4:
                 title.setText(getResources().getString(R.string.fact5_title));
+                illustration.setImageResource(R.drawable.go);
                 content.setText(getResources().getString(R.string.fact5_content));
                 break;
         }

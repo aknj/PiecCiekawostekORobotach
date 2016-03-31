@@ -11,7 +11,7 @@
     <style name="MenuButton">
         <item name="android:layout_width">fill_parent</item>
         <item name="android:layout_height">64dp</item>
-        <item name="android:layout_marginTop">2dp</item>
+        <item name="android:layout_marginTop">4dp</item>
         <item name="android:layout_marginBottom">2dp</item>
         <item name="android:onClick">openFact</item>
     </style>
@@ -29,11 +29,19 @@
         <item name="android:paddingBottom">4dp</item>
         <item name="android:paddingLeft">10dp</item>
         <item name="android:background">#dddddd</item>
+        <item name="android:maxLines">2</item>
     </style>
 
     <style name="Paragraph">
         <item name="android:textSize">17sp</item>
         <item name="android:layout_margin">8dp</item>
+    </style>
+
+    <style name="Congrats">
+        <item name="android:textSize">20sp</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:layout_marginBottom">12dp</item>
+        <item name="android:padding">4dp</item>
     </style>
 
 </resources>

@@ -5,6 +5,9 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
+import android.webkit.WebSettings;
+import android.webkit.WebView;
+import android.webkit.WebViewClient;
 import android.widget.Button;
 import android.widget.TextView;
 
@@ -44,9 +47,33 @@ public class MainActivity extends AppCompatActivity {
         while(i < 5 && app.getKnowsFact(i)) {
             i++;
         }
-        if (i == 5) {
-            TextView tw = (TextView) findViewById(R.id.reward);
+        if (i == 5) {       /// if the user read everything
+            TextView tw = (TextView) findViewById(R.id.congrats);
             tw.setText(getResources().getString(R.string.congrats));
+
+
+            /// displaying of the vine
+            String frameVideo = "<center><iframe src=\"https://vine.co/v/iXWz6516Ipz/embed/simple\" width=\"300\" height=\"300\" frameborder=\"0\"></iframe></center><script src=\"https://platform.vine.co/static/scripts/embed.js\"></script>";
+
+            WebView displayVideo = (WebView)findViewById(R.id.webView);
+            displayVideo.setWebViewClient(new WebViewClient() {
+                @Override
+                public boolean shouldOverrideUrlLoading(WebView view, String url) {
+                    return false;
+                }
+            });
+            WebSettings webSettings = displayVideo.getSettings();
+            displayVideo.setBackgroundColor(getResources().getColor(R.color.transparent));
+            webSettings.setJavaScriptEnabled(true);
+
+            /// resizing displayVideo WebView to be the size of the contents
+    //        RelativeLayout layout = new RelativeLayout(this);
+    //        RelativeLayout.LayoutParams lp = new RelativeLayout.LayoutParams(
+    //                RelativeLayout.LayoutParams.WRAP_CONTENT,
+    //                RelativeLayout.LayoutParams.WRAP_CONTENT);
+    //        displayVideo.setLayoutParams(lp);
+
+            displayVideo.loadData(frameVideo, "text/html", "utf-8");
         }
     }
 
